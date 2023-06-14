@@ -1,0 +1,29 @@
+.list-todo-content {
+    span:hover {
+        cursor: pointer;
+
+    }
+
+    width: 450px;
+    margin: 0 auto;
+
+    .todo-child {
+
+        &:first-child {
+            border-top: 1px solid green;
+        }
+
+        margin: 10px;
+        border-bottom: 1px solid green;
+        height: 40px;
+
+
+        .fa-regular {
+            margin-left: 5px;
+        }
+
+        .fa-regular:hover {
+            color: aqua;
+        }
+    }
+}
